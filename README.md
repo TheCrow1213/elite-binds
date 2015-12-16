@@ -1,4 +1,4 @@
-# Dahkron's Elite:Dangerous Binds
+# CMDR Shook's Elite:Dangerous Binds, forked from Dahkron
 
 I'm currently using an Xbox controller with which I first used the advanced joypad configuration, but found it didn't quite do everything I wanted and I still had to reach for the keyboard from time to time.  So I tried using [this guy's config](https://forums.frontier.co.uk/showthread.php?t=71532) and whilst it's really good I had trouble remembering what was what and it didn't feel entirely logical to me.
 
