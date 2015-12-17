@@ -718,7 +718,7 @@
 	</CamTranslateZHold>
 	<ToggleDriveAssist>
 		<Primary Device="{NoDevice}" Key="" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="GamePad" Key="Pad_Back" />
 		<ToggleOn Value="0" />
 	</ToggleDriveAssist>
 	<DriveAssistDefault Value="0" />
