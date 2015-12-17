@@ -756,7 +756,7 @@
 	</BuggyRollRightButton>
 	<BuggyPitchAxis>
 		<Binding Device="GamePad" Key="Pad_LStickY" />
-		<Inverted Value="1" />
+		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</BuggyPitchAxis>
 	<BuggyPitchUpButton>
@@ -768,7 +768,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</BuggyPitchDownButton>
 	<VerticalThrustersButton>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="GamePad" Key="Pos_Pad_RStickY" />
 		<Secondary Device="{NoDevice}" Key="" />
 		<ToggleOn Value="0" />
 	</VerticalThrustersButton>
@@ -777,20 +777,26 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</BuggyPrimaryFireButton>
 	<BuggySecondaryFireButton>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="GamePad" Key="Pos_Pad_LTrigger">
+			<Modifier Device="GamePad" Key="Pad_X" />
+		</Primary>
 		<Secondary Device="{NoDevice}" Key="" />
 	</BuggySecondaryFireButton>
 	<AutoBreakBuggyButton>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="GamePad" Key="Pos_Pad_LTrigger" />
 		<Secondary Device="{NoDevice}" Key="" />
 		<ToggleOn Value="0" />
 	</AutoBreakBuggyButton>
 	<HeadlightsBuggyButton>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="GamePad" Key="Pad_LThumb">
+			<Modifier Device="GamePad" Key="Pad_X" />
+		</Primary>
 		<Secondary Device="{NoDevice}" Key="" />
 	</HeadlightsBuggyButton>
 	<ToggleBuggyTurretButton>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="GamePad" Key="Pos_Pad_LTrigger">
+			<Modifier Device="GamePad" Key="Pad_A" />
+		</Primary>
 		<Secondary Device="{NoDevice}" Key="" />
 	</ToggleBuggyTurretButton>
 	<SelectTarget_Buggy>
@@ -802,7 +808,7 @@
 	<MouseTurretYMode Value="" />
 	<MouseTurretYDecay Value="1" />
 	<BuggyTurretYawAxisRaw>
-		<Binding Device="{NoDevice}" Key="" />
+		<Binding Device="GamePad" Key="Pad_LStickX" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</BuggyTurretYawAxisRaw>
@@ -815,8 +821,8 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</BuggyTurretYawRightButton>
 	<BuggyTurretPitchAxisRaw>
-		<Binding Device="{NoDevice}" Key="" />
-		<Inverted Value="0" />
+		<Binding Device="GamePad" Key="Pad_LStickY" />
+		<Inverted Value="1" />
 		<Deadzone Value="0.00000000" />
 	</BuggyTurretPitchAxisRaw>
 	<BuggyTurretPitchUpButton>
