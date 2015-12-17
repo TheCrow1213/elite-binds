@@ -275,7 +275,7 @@
 	</BackwardThrustButton_Landing>
 	<ToggleFlightAssist>
 		<Primary Device="Keyboard" Key="Key_Z" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="GamePad" Key="Pad_Back" />
 		<ToggleOn Value="1" />
 	</ToggleFlightAssist>
 	<YawToRollMode_FAOff Value="" />
@@ -543,7 +543,7 @@
 	<EnableCameraLockOn Value="1" />
 	<GalaxyMapOpen>
 		<Primary Device="Keyboard" Key="Key_M" />
-		<Secondary Device="GamePad" Key="Pad_Back" />
+		<Secondary Device="{NoDevice}" Key="" />
 	</GalaxyMapOpen>
 	<SystemMapOpen>
 		<Primary Device="{NoDevice}" Key="" />
